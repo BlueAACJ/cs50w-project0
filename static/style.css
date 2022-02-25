@@ -1,8 +1,32 @@
-body {
-  background-color: blue;
+#header {
+  background-color: #52c0cb;
 }
 
-body h1 {
-  color: red;
+#header h2 {
+  font-style: italic;
+  text-align: center;
+  font-size: 375%;
+  padding-left: 14px;
+  padding-top: 14px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+  color: black;
+}
+
+#informacionfinal {
+  background-color: black;
+  padding-top: 48px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 48px;
+  size: 200%;
+}
+
+#informacionfinal h1 {
+  font-style: normal;
+  margin-left: 3cm;
+  text-align: left;
+  font-size: 150%;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
