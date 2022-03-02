@@ -10,7 +10,27 @@
   padding-top: 14px;
   padding-right: 14px;
   padding-bottom: 14px;
+  margin-bottom: 0px;
   color: black;
+}
+
+.col-3 {
+  background-color: #00e1ff;
+}
+
+.col-3 a {
+  font-style: italic;
+  text-align: left;
+  font-size: 250%;
+  color: black;
+  padding-top: 48px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 48px;
+}
+
+.col-9 {
+  background-color: red;
 }
 
 #informacionfinal {
