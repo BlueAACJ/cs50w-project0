@@ -23,14 +23,10 @@
   text-align: left;
   font-size: 250%;
   color: black;
-  padding-top: 48px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 48px;
 }
 
 .col-9 {
-  background-color: red;
+  padding: 0px !important;
 }
 
 #informacionfinal {
@@ -48,5 +44,9 @@
   text-align: left;
   font-size: 150%;
   color: white;
+}
+
+.tamano {
+  height: 450px;
 }
 /*# sourceMappingURL=style.css.map */

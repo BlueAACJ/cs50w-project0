@@ -19,26 +19,22 @@
         font-style: italic;
         text-align: left;
         font-size: 250%;
-        color: black;
-        padding-top: 48px;
-        padding-left: 24px;
-        padding-right: 24px;
-        padding-bottom: 48px;        
+        color: black;   
     }
 }  
 
 .col-9{
-    background-color: red;
+    //background-color: red;
+    padding: 0px !important;
 }
-
-  #informacionfinal{
-      background-color: black;
-      padding-top: 48px;
-      padding-left: 24px;
-      padding-right: 24px;
-      padding-bottom: 48px;
-      size: 200%;
-      h1{
+#informacionfinal{
+    background-color: black;
+    padding-top: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 48px;
+    size: 200%;
+    h1{
         font-style: normal;
         margin-left: 3cm;
         text-align: left;
@@ -46,3 +42,7 @@
         color: white;
       }
   }
+
+.tamano{
+    height: 450px;
+}
