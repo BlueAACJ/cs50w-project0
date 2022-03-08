@@ -29,6 +29,19 @@
   padding: 0px !important;
 }
 
+.col-9 p {
+  color: black;
+  font: italic normal bold normal 3em/1.5 Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  padding: 12px;
+}
+
+.lista_informacion_personal {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
 #informacionfinal {
   background-color: black;
   padding-top: 48px;
@@ -48,5 +61,9 @@
 
 .tamano {
   height: 450px;
+}
+
+#foto_informacion_personal {
+  float: right;
 }
 /*# sourceMappingURL=style.css.map */
