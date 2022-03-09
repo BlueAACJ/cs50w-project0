@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- style CSS -->
-    <link rel="stylesheet" href="/static/style.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
+     
+    <!-- style CSS -->
+    <link rel="stylesheet" href="/static/style.css"> 
+
     <title>Curriculum Vitae</title>
 </head>
 <body>
   <header id="header">
-    <h2>Curriculum Vitae</h2>
+    <h2 id="curri" class="text-center">Curriculum Vitae</h2>
   </header>
   <div class="container-fluid">
     <!--1 fila -->
@@ -23,26 +23,47 @@
       <!-- Columna del menu-->
       <div class="col-3">   
         <div>
-          <a href="index.html">Indice</a>
+          <a href="index.html" class="texto_izquierda" class="text-center">Indice</a>
         </div>
         <div>
-          <a href="info-personal.html">Informacion Personal </a>          
+          <a href="info-personal.html" class="texto_izquierda" class="text-center">Informacion Personal </a>          
         </div>
         <div>
-          <a href="Intereses.html">Intereses</a>
+          <a href="Intereses.html" class="texto_izquierda" class="text-center">Intereses</a>
         </div>
         <div>
-          <a href="hobbies.html">Hobbies</a>
+          <a href="hobbies.html" class="texto_izquierda" class="text-center">Hobbies</a>
         </div>
       </div>   
       <!-- columna de la informacion -->
       <!-- Informacion Academica-->
       <div class="col-9">
-        <div id="foto_informacion_academica">
-          <img src="/static/img/">
-        </div>
-        <p>Informacion Academica</p>
-        <div>
+        <p id="p_estudios_basicos">Informacion Academica</p>
+        <div class="lista_info_academica">
+          <ol>
+            <li>Pre-escolar:</li>
+              <ul>
+                <li>Colegio Sagrada Familia</li>
+              </ul>
+            <li>Primaria:</li>
+              <ul>
+                <li>Colegio Sagrada Familia 1er grado</li>
+                <li>Colegio Cristo del Rosario 2do grado</li>
+                <li>Colegio Madre del Divino Pastos 3ro, 4to, 5to y 6to Grado</li>
+              </ul>
+            <li>Secundaria:</li>
+              <ul>
+                <li>Colegio Madre del Divino Pastor 1er a 5to año</li>
+              </ul>
+            <li>Universidad:</li>
+            <ul>
+              <li>Actualmente me encuentro cursando 3 semestre de la carrera de Ingenieria en Computacion</li>
+            </ul>
+            <li>Cursos:</li>
+            <ul>
+              <li>Graduado del curso CS50 2021</li>
+            </ul>
+          </ol>
           
         </div>
       </div>       
@@ -50,7 +71,7 @@
   </div>
   <footer id="informacionfinal">
     <div>
-     <h1>Página web hecha por Alejandro Antonio Castillo Jacamo</h1>      
+     <h1 class="text-center">Página web hecha por Alejandro Antonio Castillo Jacamo</h1>      
     </div>
   </footer>
 </body>

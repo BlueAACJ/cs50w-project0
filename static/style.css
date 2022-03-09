@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #header {
   background-color: #52c0cb;
 }
@@ -36,9 +37,8 @@
   padding: 12px;
 }
 
-.lista_informacion_personal {
+.lista_informacion_personal, .lista_info_academica {
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
 
@@ -58,6 +58,17 @@
   color: white;
 }
 
+#p_informacion_personal, #p_estudios_basicos {
+  font-size: 150%;
+  padding: 0;
+  font-style: italic;
+  margin: 0;
+}
+
+ul li {
+  list-style-type: circle;
+}
+
 .tamano {
   height: 450px;
 }
@@ -67,6 +78,8 @@
   padding-right: 70px;
 }
 
+/*Tu sitio debe contener al menos un selector responsivo @media query, 
+que debe aplicarse a pantallas más pequeñas.*/
 @media (max-width: 854px) {
   .col-3 a {
     font-size: 150%;
