@@ -21,12 +21,12 @@ Requerimentos de la asignacion:
 
 *Tu sitio debe contener al menos 4 diferentes páginas .html, y debe ser posible entrar desde una página hasta otra siguiendo uno o más hipervínculos. Mi pagina tiene 5(index, hobbies, info-personal, info-academica e intereses.html)
 
-Tu sitio debe contener al menos una lista (ordenada o desordenada), al menos una tabla y al menos una imagen.
+*Tu sitio debe contener al menos una lista (ordenada o desordenada), al menos una tabla y al menos una imagen.
 
 *Tu sitio debe contener al menos una hoja de estilos. Mi pagina tiene una hoja de estilos llamada style.scss
 
-Tu sitio debe usar al menos 5 diferentes propiedades CSS, y al menos 5 selectores diferentes. Debes usar el selector de #id y el de .class al menos una vez.
-Selectores usados: #id, class, seleccionar a #p_informacion_personal, #p_estudios_basicos, ul li y 
+*Tu sitio debe usar al menos 5 diferentes propiedades CSS, y al menos 5 selectores diferentes. Debes usar el selector de #id y el de .class al menos una vez.
+Selectores usados: #id, class, seleccionar a #p_informacion_personal, #p_estudios_basicos, ul li y .hobbies > ol.
 
 *Tu sitio debe contener al menos un selector responsivo @media query, que debe aplicarse a pantallas más pequeñas.
 

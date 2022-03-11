@@ -68,19 +68,63 @@ $color_negro: rgb(0, 0, 0);
     }
 }
 
-#p_informacion_personal, #p_estudios_basicos{
+#p_informacion_personal, #p_estudios_basicos, #Hobbies, #intereses{
     font-size: 150%;
     padding: 0;
     font-style: italic;
     margin: 0;
 }
 
-//https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type
 ul li {
     list-style-type: circle;
 }
+
+.hobbies > ol{
+    color:red;
+    font-size: 200%;
+}
+
+#foto_twich{
+    width: 500px;
+    height: 500px;
+}
+
+#foto_valorant{
+    width: 500px;
+    height: 400px;
+}
+
+#foto_musica{
+    width: 700px;
+    height: 400px;
+}
+
 .tamano{
     height: 450px;
+}
+
+.tabla{
+    font-size: 150%;
+    font-weight: normal !important;
+    padding: 0;
+    font-style: italic;
+    margin: 0;
+    border: 1px solid #000;
+    th{
+        width: 25%;
+        text-align: left;
+        border: 1px solid #000;
+    }
+    tr{
+        width: 25%;
+        text-align: center;
+        border: 1px solid #000;
+    }
+}
+
+#inter{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }
 
 #foto_informacion_personal{
